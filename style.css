@@ -2,6 +2,8 @@ body{
     background-color: blueviolet;
     color: brown;
     font-family: "monsieur",la-doulaise;
+    margin: 0px;
+    margin-bottom: 100px;
 }
 
 header {
@@ -11,7 +13,7 @@ header {
     color: crimson;
 }
 
-section{
+.chamada{
 background-color: #e635d0;
 padding-bottom: 80px;
 padding-top: 80px;
@@ -31,4 +33,30 @@ h1 {
 p {
     font-size: 16px;
     color: aqua;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos{
+    display: flex;
+    overflow: auto;
+    gap: 10px;
+}
+
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+
+.caregoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid purple;
+}
+
+.categoria h2{
+    color: pink;
 }
